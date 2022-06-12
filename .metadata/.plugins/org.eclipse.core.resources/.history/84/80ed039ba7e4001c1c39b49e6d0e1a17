@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel = "stylesheet" href = "./css/main.css"/>
+<script src="./js/actions.js"></script>
+<title>나만의 홈페이지</title>
+</head>
+<body>
+	<h2 th:text="${send1}"></h2>
+	<form th:action="@{/another/result}">
+		<input type="text" name="input-name" id="input-id">
+		<button type="submit">submit버튼</button>
+	</form>
+	
+</body>
+</html>

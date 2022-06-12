@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel = "stylesheet" href = "./css/main.css"/>
+<script src="./js/actions.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	<div>Hello Spring</div>
+	<button onclick="show()">버튼ㅇ</button>
+	<img src="./img/non.jpg">
+	<a href="./another">다른 페이지 이동!</a>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel = "stylesheet" href = "./css/main.css">
+<script src="./js/actions.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	<div>Hello Spring</div>
+	<img src="./img/non.jpg">
+</body>
+</html>

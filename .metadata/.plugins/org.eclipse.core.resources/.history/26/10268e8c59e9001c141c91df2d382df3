@@ -1,0 +1,30 @@
+package com.example.rorro.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class MainController {
+	
+
+	@GetMapping("/")
+	public String home() {
+		return "index";
+	}
+	
+	@GetMapping("/another")
+	public String anotherPage(Model model) {
+		String msg1 = "html에 넘기고 싶은 값";
+		model.addAttribute("send1", msg1);
+		return "another";
+	}
+	@GetMapping("/another/result")
+	public String result(@RequestParam("input-name") String name, Model model) {
+		
+		model.addAttribute("send1", name);
+		return "result";
+	}
+	
+}
